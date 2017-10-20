@@ -1,0 +1,27 @@
+# Configuration for Db Access
+dbUrl: "postgresql://mathcoachtest:mathcoachtest@localhost:5432/mathcoachtest"
+# configuration for generated files
+outputDir: inspection-result
+formatType: pdf
+
+# Configuration for style
+baseStyle:
+  font:
+    family: Luxi Sans
+    size: 12
+    shape: regular
+
+tableStyle:
+  color: white
+  bgColor: "#00649d"
+  font:
+    family: Luxi Mono
+    size: 10
+
+
+columnStyle:
+  color: black
+  bgColor: "#82d1f5"
+
+keyColumnStyle:
+  bgColor: "#88ff88"
